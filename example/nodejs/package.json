@@ -1,0 +1,22 @@
+{
+    "name": "kafka-example",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+    "start": "nodemon index.js",
+    "build": "node index.js"
+    },
+    "keywords": [],
+    "author": "AnikeshDey",
+    "license": "ISC",
+    "description": "",
+    "dependencies": {
+    "chance": "^1.1.8",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "kafkajs": "^2.0.2"
+    },
+    "devDependencies": {
+    "nodemon": "^2.0.15"
+    }
+}
